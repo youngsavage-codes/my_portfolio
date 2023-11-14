@@ -3,6 +3,7 @@ import app_dev from '../../assets/icons/app.png'
 import sofware_dev from '../../assets/icons/software.png'
 import redesign from '../../assets/icons/redesign.png'
 import hosting from '../../assets/icons/hosting.png'
+import debug from '../../assets/icons/debug.png'
 import IT from '../../assets/icons/it.png'
 import database from '../../assets/icons/database.png'
 
@@ -30,7 +31,7 @@ const Services = () => {
                     <List image={sofware_dev} title='Software Development' desc='Far far away, behind the world mountain, far from the countries Vocalia and Consonantia, there ived a blind text'/>
                     <List image={web_dev} title='Web Development' desc='Far far away, behind the world mountain, far from the countries Vocalia and Consonantia, there ived a blind text'/>
                     <List image={app_dev} title='Mobile App Development' desc='Far far away, behind the world mountain, far from the countries Vocalia and Consonantia, there ived a blind text'/>
-                    <List title='Code Debugging' desc='Far far away, behind the world mountain, far from the countries Vocalia and Consonantia, there ived a blind text'/>
+                    <List image={debug} title='Code Debugging' desc='Far far away, behind the world mountain, far from the countries Vocalia and Consonantia, there ived a blind text'/>
                     <List image={redesign} title='Website ReDesign' desc='Far far away, behind the world mountain, far from the countries Vocalia and Consonantia, there ived a blind text'/>
                     <List image={hosting} title='Web Hosting' desc='Far far away, behind the world mountain, far from the countries Vocalia and Consonantia, there ived a blind text'/>
                     <List image={database} title='Database Admin' desc='Far far away, behind the world mountain, far from the countries Vocalia and Consonantia, there ived a blind text'/>

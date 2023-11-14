@@ -25,7 +25,7 @@ const Contact = () => {
                   </div>
                   <div className="text-center w-full">
                     <h1 className="text-xl font-bold uppercase mb-5 font-[Gabriola]">Website</h1>
-                    <p className="font-thin text-base text-gray-400">Ogalamohammed.com</p>
+                    <p className="font-thin text-base text-gray-400"></p>
                   </div>
                 </div>
 
@@ -55,7 +55,7 @@ const Contact = () => {
                       <div className="flex gap-5 mt-2 font-[Gabriola]">
                         <Link>FACEBOOK</Link>
                         <Link>INSTAGRAM</Link>
-                        <Link>GITHUB</Link>
+                        <Link to='https://github.com/youngsavage-codes'>GITHUB</Link>
                       </div>
                     </div>
 
