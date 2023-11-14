@@ -1,0 +1,7 @@
+body{
+   font-family: 'Poppins', 'Bahnschrift Condensed',Arial, sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 0;
+}
