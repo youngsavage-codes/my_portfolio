@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import imag from '../../assets/sofware-developer-thinking-while-touching-beard-while-typing-laptop-sitting-desk-with-multiple-screens-parsing-code-focused-database-admin-working-with-team-coding-background.jpg'
 
 const Contact = () => {
   return (
@@ -17,7 +18,7 @@ const Contact = () => {
                   </div>
                   <div className="text-center w-full">
                     <h1 className="text-xl font-bold uppercase mb-5 font-[Gabriola]">Contact Number</h1>
-                    <p className="text-base font-thin text-gray-400">+234 7056882004</p>
+                    <p className="text-base font-thin text-gray-400">+234 904 925 5784</p>
                   </div>
                   <div className="text-center w-full">
                     <h1 className="text-xl font-bold uppercase mb-5 font-[Gabriola]">Email</h1>
@@ -25,12 +26,12 @@ const Contact = () => {
                   </div>
                   <div className="text-center w-full">
                     <h1 className="text-xl font-bold uppercase mb-5 font-[Gabriola]">Website</h1>
-                    <p className="font-thin text-base text-gray-400"></p>
+                    <p className="font-thin text-base text-gray-400">Coming Soon</p>
                   </div>
                 </div>
 
-                <div className="flex justify-between flex-wrap text-white bg-orange-300 rounded-lg mt-20">
-                  <div className="w-full lg:w-[50%] bg-gray-900 p-16 rounded-lg">
+                <div className="flex justify-between flex-wrap text-white mt-20">
+                  <div className="w-full lg:w-[50%] bg-gray-900 p-16 rounded-lg rounded-tl-lg rounded-bl-lg">
                     <h2 className="text-2xl font-bold">Contact Us</h2>
                     <p className="py-5 font-[Gabriola]">We're Open For Suggestion or just a chat</p>
 
@@ -53,14 +54,16 @@ const Contact = () => {
                     <div>
                       <h2 className="text-lg">Follow Us Here</h2>
                       <div className="flex gap-5 mt-2 font-[Gabriola]">
-                        <Link>FACEBOOK</Link>
-                        <Link>INSTAGRAM</Link>
+                        <Link to='https://www.facebook.com/profile.php?id=100087247520983'>FACEBOOK</Link>
+                        <Link to=''>INSTAGRAM</Link>
                         <Link to='https://github.com/youngsavage-codes'>GITHUB</Link>
                       </div>
                     </div>
 
                   </div>
-                  <div className="w-full lg:w-[50%]">man</div>
+                  <div className="w-full lg:w-[50%] overflow-hidden rounded-tr-lg rounded-br-lg">
+                    <img src={imag} alt="" className="w-full h-full object-cover"/>
+                  </div>
                 </div>
             </div>
         </div>

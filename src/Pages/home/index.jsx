@@ -1,6 +1,7 @@
 // import image from '../assets/355781565_688747116528788_3953233516169405778_n.jpg'
 import { Link } from "react-router-dom"
 import { FaArrowRight } from "react-icons/fa";
+// import homeimg from '../../assets/home.png'
 
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
           </div>
         </div>
         <div className="bg-orange-300 lg:w-[50%] h-full flex items-end justify-center w-full">
-            {/* <img src={image} className='w-full h-full'/> */}
+            {/* <img src={homeimg} className='w-[90%] h-[90%]'/> */}
         </div>
       </div>
     </div>
