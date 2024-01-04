@@ -10,7 +10,7 @@ import Nav from './components/nav';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/my_portfolio'>
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
