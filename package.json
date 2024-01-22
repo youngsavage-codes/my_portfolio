@@ -12,7 +12,7 @@
     "tailwind:build": "tailwindcss build -o src/styles/tailwind.css",
     "tailwind:watch": "tailwindcss build -o src/styles/tailwind.css --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "vite build && gh-pages -d dist -b my_portfolio"
   },
   "dependencies": {
     "react": "^18.2.0",
